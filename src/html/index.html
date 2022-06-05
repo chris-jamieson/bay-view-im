@@ -8,6 +8,21 @@
     />
     <title>Bay View Port St Mary - Development Opportunity For Sale</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9YBZG6GLRV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-9YBZG6GLRV");
+    </script>
+
     {{> partials/head title="Landkit"}}
   </head>
   <body>
@@ -22,13 +37,7 @@
     <section
       data-jarallax
       data-speed=".8"
-      class="
-        pt-10 pt-md-14
-        pb-12 pb-md-15
-        overlay overlay-primary overlay-40
-        jarallax
-        min-vh-75
-      "
+      class="pt-10 pt-md-14 pb-12 pb-md-15 overlay overlay-primary overlay-40 jarallax min-vh-75"
       style="background-image: url(assets/img/covers/cover-demo.png)"
     >
       <!-- Content -->
@@ -163,7 +172,10 @@
       data-jarallax
       data-speed=".8"
       class="py-14 py-lg-16 jarallax"
-      style="background-image: url(assets/img/covers/cover-1-jarallax-pop.jpg); animation: slides 15s linear infinite; "
+      style="
+        background-image: url(assets/img/covers/cover-1-jarallax-pop.jpg);
+        animation: slides 15s linear infinite;
+      "
     >
       <!-- Shape -->
       <div class="shape shape-top shape-fluid-x text-white">
@@ -183,14 +195,14 @@
             <h2>Site overview</h2>
             <p>
               Situated in Port St. Mary on the corner of Primrose Terrace and
-              Lhargan Road, the Bay View Hotel is 3 storeys high with a basement
-              area. The existing building and outriggers cover the majority of
-              the site, leaving a small internal courtyard.
+              Lhargan Road, the Bay View is 3 storeys high with a basement area.
+              The existing building and outriggers cover the majority of the
+              site, leaving a small internal courtyard.
             </p>
             <p>
               In addition to the main footprint, a parcel of land located across
-              the road at the rear of the building and a small garden (optional purchase) located on
-              the opposite side of Primrose Terrace.
+              the road at the rear of the building and a small garden (optional
+              purchase) located on the opposite side of Primrose Terrace.
             </p>
 
             <p>
@@ -220,7 +232,7 @@
                     target="_blank"
                     class="text-reset"
                   >
-                    Bay View Hotel, Primrose Terrace<br />
+                    The Bay View, Primrose Terrace<br />
                     Port St. Mary, Isle Of Man IM9 5AP
                   </a>
                 </p>
@@ -287,20 +299,13 @@
             <div class="mb-8 mb-md-0">
               <!-- Image -->
               <a
-                data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-2.jpg"}'
+                data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-2.jpg", "gallery": "#plan-gallery", "position": 1, "galleryAttribute": "src"}'
                 href="#"
               >
                 <img
                   src="assets/img/photos/visualisation-2.jpg"
                   alt="..."
-                  class="
-                    screenshot
-                    img-fluid
-                    mw-md-110
-                    float-end
-                    me-md-6
-                    mb-6 mb-md-0
-                  "
+                  class="screenshot img-fluid mw-md-110 float-end me-md-6 mb-6 mb-md-0"
                 />
               </a>
             </div>
@@ -387,15 +392,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-1.jpg", "gallery": "#plan-gallery", "caption": "Test caption"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-1.jpg", "gallery": "#plan-gallery", "position": 0, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/visualisation-1.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/visualisation-1.jpg"
-                data-caption="Architectural Illustration: Bay View Road 1"
               />
             </a>
           </div>
@@ -403,14 +406,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-2.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-2.jpg", "gallery": "#plan-gallery", "position": 1, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/visualisation-2.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/visualisation-2.jpg"
               />
             </a>
           </div>
@@ -418,14 +420,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-3.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-3.jpg", "gallery": "#plan-gallery", "position": 2, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/visualisation-3.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/visualisation-3.jpg"
               />
             </a>
           </div>
@@ -433,14 +434,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-4.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/visualisation-4.jpg", "gallery": "#plan-gallery", "position": 3, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/visualisation-4.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/visualisation-4.jpg"
               />
             </a>
           </div>
@@ -448,14 +448,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-north-east.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-north-east.jpg", "gallery": "#plan-gallery", "position": 4, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/elevation-north-east.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/elevation-north-east.jpg"
               />
             </a>
           </div>
@@ -463,14 +462,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-north-west.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-north-west.jpg", "gallery": "#plan-gallery", "position": 5, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/elevation-north-west.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/elevation-north-west.png"
               />
             </a>
           </div>
@@ -478,14 +476,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-south-east.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-south-east.jpg", "gallery": "#plan-gallery", "position": 6, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/elevation-south-east.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/elevation-south-east.png"
               />
             </a>
           </div>
@@ -493,14 +490,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-south-west.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/elevation-south-west.jpg", "gallery": "#plan-gallery", "position": 7, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/elevation-south-west.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/elevation-south-west.png"
               />
             </a>
           </div>
@@ -508,14 +504,13 @@
           <div class="col-md-4 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/floor-plan.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/floor-plan.jpg", "gallery": "#plan-gallery", "position": 8, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/floor-plan.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/floor-plan.png"
               />
             </a>
           </div>
@@ -523,14 +518,13 @@
           <div class="col-md-12 mb-3">
             <!-- Image -->
             <a
-              data-bigpicture='{"imgSrc": "assets/img/photos/proposed-street-elevation.jpg", "gallery": "#plan-gallery"}'
+              data-bigpicture='{"imgSrc": "assets/img/photos/proposed-street-elevation.jpg", "gallery": "#plan-gallery", "position": 9, "galleryAttribute": "src"}'
               href="#"
             >
               <img
                 src="assets/img/photos/proposed-street-elevation.jpg"
                 alt="..."
                 class="screenshot img-fluid"
-                data-bp="assets/img/photos/proposed-street-elevation.jpg"
               />
             </a>
           </div>
@@ -578,7 +572,6 @@
         class="flickity-button-white flickity-button-inset"
         data-flickity='{"imagesLoaded": true, "wrapAround": true, "pageDots": false, "autoPlay": true}'
       >
-
         <div class="w-100">
           <!-- Image -->
           <img
@@ -626,7 +619,8 @@
 
               <!-- Text -->
               <p class="mb-5 mb-md-7">
-                "A very pretty place... The school system is excellent and crime rates are very low.”
+                "A very pretty place... The school system is excellent and crime
+                rates are very low.”
               </p>
 
               <!-- Footer -->
@@ -638,8 +632,14 @@
                     alt="..."
                   />
                 </div>
-                <span class="h6 text-uppercase">Nick Foster, Financial Times</span>
-                <a href="https://www.ft.com/content/1d529eb8-0f8e-11e5-b968-00144feabdc0" target="_blank"><i class="fe fe-link"></i></a>
+                <span class="h6 text-uppercase"
+                  >Nick Foster, Financial Times</span
+                >
+                <a
+                  href="https://www.ft.com/content/1d529eb8-0f8e-11e5-b968-00144feabdc0"
+                  target="_blank"
+                  ><i class="fe fe-link"></i
+                ></a>
               </footer>
             </blockquote>
           </div>
@@ -659,7 +659,8 @@
 
               <!-- Text -->
               <p class="mb-5 mb-md-7">
-                “I wish we could stay here for ever... I promise you, it is glorious.”
+                “I wish we could stay here for ever... I promise you, it is
+                glorious.”
               </p>
 
               <!-- Footer -->
@@ -671,9 +672,14 @@
                     alt="..."
                   />
                 </div>
-                <span class="h6 text-uppercase">Kirstie Nickson, Sunday Times</span>
-                <a href="https://www.thetimes.co.uk/article/postcard-from-the-isle-of-man-no-qr-codes-no-sanitiser-no-distancing-its-glorious-9psmlbs8x" target="_blank"><i class="fe fe-link"></i></a>
-
+                <span class="h6 text-uppercase"
+                  >Kirstie Nickson, Sunday Times</span
+                >
+                <a
+                  href="https://www.thetimes.co.uk/article/postcard-from-the-isle-of-man-no-qr-codes-no-sanitiser-no-distancing-its-glorious-9psmlbs8x"
+                  target="_blank"
+                  ><i class="fe fe-link"></i
+                ></a>
               </footer>
             </blockquote>
           </div>
